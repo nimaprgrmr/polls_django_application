@@ -1,0 +1,21 @@
+li a {
+    color: aliceblue;
+}
+
+label {
+    color: aliceblue; /* Set the color of the label text */
+}
+
+legend {
+    color: aliceblue; /* Set the color of the legend text */
+}
+
+ul {
+    color: aliceblue;
+}
+
+body {
+    background: white url("images/background.jpg") no-repeat;
+    background-size: cover;
+    /* background-position: top; */
+}

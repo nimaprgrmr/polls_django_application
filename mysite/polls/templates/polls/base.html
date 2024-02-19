@@ -1,0 +1,32 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Site{% endblock %}</title>
+
+    <!-- CSS styles for the logo text -->
+    <style>
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none; /* Remove underline */
+            color: #25ddf5; /* Text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Text-based logo with link to polls/index.html -->
+        <a href="{% url 'polls:index' %}" class="logo-text">Polls</a>
+    </header>
+
+    <main>
+        <!-- Placeholder for content to be filled in by child templates -->
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
