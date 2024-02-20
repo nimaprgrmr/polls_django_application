@@ -1,0 +1,1 @@
+I‌ made a django application based on the documentation of django, and try to set some commands to clarify what's happening in there, commented simple versions of views and templates to keep scripts. upload here just as a refrence code for creating much more complex and real word applications.
